@@ -1,0 +1,38 @@
+section {
+    display: grid;
+    grid-template-areas: 
+    "A A A A A"
+    "B B B B B"
+    "C C C C C";
+}
+
+
+.A{
+    grid-area: A;
+    font-size: 2rem;
+}
+
+.B {
+    grid-area: B;
+    font-size: 2rem;
+}
+
+.C {
+    grid-area: C;
+    font-size: 2rem;
+}
+
+button {
+    margin: auto;
+    width: 410%;
+    font-size: 2rem;
+}
+
+footer {
+    width: 80rem;
+    padding: 0 0 0 .5rem; /* top right bottom left */
+    margin: 0 0 0 .5rem;
+    box-shadow: inset 150px 0 150px -150px ;
+    color: red ;
+    opacity: 0.75;
+}
