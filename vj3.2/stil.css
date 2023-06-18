@@ -1,0 +1,28 @@
+section {
+    display: grid;
+    grid-template-areas: 
+    "A A A A A"
+    "B B B B B";
+}
+
+.center{
+    display: grid;
+    grid-template-areas: 
+    ". unosI unosP unosN .";
+}
+
+.A{
+    grid-area: A;
+    font-size: 2rem;
+}
+
+.B {
+    grid-area: B;
+    font-size: 2rem;
+}
+
+button{
+    margin: auto;
+    width: 410%;
+    font-size: 2rem;
+}
