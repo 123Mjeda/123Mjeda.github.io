@@ -4,3 +4,10 @@
     margin: auto;
     padding: auto;
 }
+
+section {
+    display: grid;
+    grid-template-areas: 
+    "A A A A A"
+    "B B B B B";
+}
