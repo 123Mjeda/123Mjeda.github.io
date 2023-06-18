@@ -1,0 +1,11 @@
+div.cell {
+    background-color: rgb(red, green, blue);
+    padding: 30px;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+#a{background-color: blue;}
+#b{background-color: green;}
+#c{background-color: red;}
